@@ -7,9 +7,9 @@ var students = [
     ],
     [
         'Maria',
-        ['math', 6],
+        ['math', 2],
         ['physics', 5],
-        ['music', 5],
+        ['music', 3],
     ],
     [
         'George',
@@ -43,6 +43,7 @@ for(var i = 0; i<students.length; i++)
     }
     console.log(` `);
     console.log(`\t${students[i][0]} is best in ${highestmark[0]}(${highestmark[1]})`);
+    highestmark = 0;
 }
 // TASK: напишете кода, който да намира и изписва в конзолата най-високата оценка и съответния предмет за даден студент.		
 // >>>>>>> your code starts here >>>>>>>
