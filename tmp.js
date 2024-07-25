@@ -1,6 +1,19 @@
-for (var i = 0;i<3;i++)
+// TASK: преди да пуснете програмата си запишете какъв очаквате да е изхода от програмата и след това сравнете.
+
+let x = 1;
+
+let foo = function() 
 {
-    console.log(i);
+	let x = 2;
+
+	let bar = function(x) 
+    {
+		console.log("x in bar = ", x)
+	};
+	bar(99);
+
+	console.log("x in foo = ", x);
 }
-console.log("");
-console.log(i);
+
+foo();
+console.log("x in main = ", x);
