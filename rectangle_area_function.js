@@ -2,7 +2,7 @@
 //да се дефинира функция calcRectangleArea(), която връща лицето на правоъгълник, със зададени дължина и ширина:
 
 // ---> YOUR CODE HERE <---
-function calcRectangleArea (rectWidth, rectHeight)
+function calcRectangleArea(rectWidth, rectHeight)
 {
     return rectWidth*rectHeight;
 }
