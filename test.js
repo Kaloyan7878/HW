@@ -1,8 +1,8 @@
-var timeoutId = setTimeout(function(){
-    console.log(`1`);
-},1000)
-
-console.log(`hihihih`+timeoutId);
-setInterval(function(){
-    console.log(`1`);
-},1000 )
+let timeInput = document.querySelector('#timer-container');
+let timeInput2 = document.querySelector('#timer-container2');
+function startTimer() {
+if (timeInput2 === 0) {
+    timeInput2 = 59;
+}
+}
+setInterval(()=>{timeInput2--},1000)
